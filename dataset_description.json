@@ -8,9 +8,9 @@
         "Paul-Antoine Libourel",
         "Onur Güntürkün",
         "Niels C. Rattenborg"
-		],
+    ],
     "BIDSVersion": "1.4.1",
-    "DatasetDOI": "",
+    "DatasetDOI": "doi:10.18112/openneuro.ds004465.v1.0.0",
     "Funding": [
         "Max Planck Society",
         "Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) – Projektnummer 316803389 – SFB 1280",
