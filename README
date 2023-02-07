@@ -1,0 +1,26 @@
+Dataset title: functional MRI of sleeping pigeons at 7T scanner
+
+It includes data from 15 Budapest pigeons which has been scanned for two days (exept one pigeon which data for only one day is avaiable):
+
+All MRI data collection was carried out in a Bruker BioSpec 7 Tesla scanner (horizontal bore, 70/30 USR, Avance III electronic, Germany) using Paravision 6.0 software. 
+A quadrature birdcage resonator (82 mm ID) was used for RF transmission and a single-loop receiver surface coil (20 mm ID) was used for resting-state and anatomical data collection. 
+By positioning the ring surface coil around the head, it was possible to reduce artifacts due to body movements. 
+As changes in respiration may affect BOLD signals and brain connectivity maps, the respiration waveform was measured using a small pneumatic pillow placed under the pigeon’s chest muscles (Small Animal Instruments, Inc. Model 1025T monitoring and gating system) during all resting-state measurements (sub-XX_ses-0X_task-sleep_physiological_record). 
+The facial behavior of the animals was simultaneously recorded using an MRI-compatible video camera (12M-i, MRC Systems, Heidelberg, Germany; B/W) with an incorporated LED light (IR) (outside the pigeon’s visible spectrum). To facilitate detection of changes in pupil size and eye position, a small mirror was placed next to each eye (Fig. 1A). The videos were acquired at 30 fps. All recordings including respiration signals, videos, and resting-state data were synchronized using a TTL signal.
+
+Resting-State fMRI (rs-fMRI) data were acquired using a single-shot multi-slice RARE sequence adapted from Behroozi et al. (2020), with the following parameters: TR=4000ms, TEeff=41.58 ms, partial Fourier transform accelerator=1.53, encoding matrix=64×42, acquisition matrix=64×64, FOV=30×30mm2, in-plane spatial resolution =0.47×.047mm2, radio-frequency pulse flip angles for excitation and refocusing=90°/180°, slice thickness=1mm, no slice distance, slice order=interleaved, excitation and refocusing pulse form=scanner vendor gauss512, receiver bandwidth= 50,000Hz. 
+To saturate the signals from the eyes to avoid brain image corruption due to eye movements, two saturation slices were positioned manually over the eyes. 
+Each run of the rsfMRI recordings included 1000 to 1450 volumes. 
+To check the reproducibility and stability of the results, rsfMRI data of all animals were recorded twice on different days. 
+
+High-resolution T2-weighted anatomical images were acquired using a RARE sequence for better spatial normalization. Scan parameters were as follows: TR=2000 ms, TEeff=50.72ms, RARE factor=16, number of averages=1, FOV =25×25×15mm3, matrix size =128×128×64, spatial resolution=0.2×0.2×0.23mm3. The total scanning time was 17min.
+
+The sleep states were manually scored using the video recordings. To facillitate the scoring process, actimetry signals were calculated for the eyes, irises, and bill region and visualized together with the video recordings. 
+NREM sleep was characterized by bilateral eye closure, stable breathing (as visible in the videos and bill actimetry signals), immobility of the eyes, and absence of bill movements other than those related to breathing. 
+REM sleep was characterized by bilateral eye closure with movements of the eyes, bill, and/or the collapse of head feathers held erect during preceding NREM sleep. As described previously, rapid constrictions and dilations of the iris are closely associated with REM sleep. Thus, rapid iris movements were also used to identify bouts of REM sleep and their absence to confirm NREM sleep.
+BEO: Both eyes open
+LEO: LEft eye open
+REO: Right eye open
+Details of all experimental designs are described in the main manuscript (Gianina Ungurean1, *, †, Mehdi Behroozi2, *, †, Leonard Böger1, Xavier Helluy2, Paul-Antoine Libourel3, Onur Güntürkün2, Niels C. Rattenborg1	. Wide-spread brain activation and reduced CSF flow during avian REM sleep).
+
+In case of any questions please contact Mehdi Behroozi (mehdi.behroozi@ruhr-uni-bochum.de)) or Gianina Ungurean (Gianina.Ungurean@bi.mpg.de).
